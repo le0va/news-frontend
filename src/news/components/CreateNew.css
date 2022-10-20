@@ -1,0 +1,17 @@
+.create-new__submit-button {
+    height: 2.5rem;
+    width: 8rem;
+    background-color: #ff0055;
+    border-radius: 0.2rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    
+}
+
+.create-new__submit-button:hover {
+    border: 1px solid #ff0055;
+    background-color: white;
+    color: #ff0055;
+    cursor: pointer;
+}

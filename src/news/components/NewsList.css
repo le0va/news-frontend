@@ -1,0 +1,12 @@
+ul.news-list {
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background: gray; */
+}
+
+/* @media (min-width: 768px) {
+    
+} */
+
