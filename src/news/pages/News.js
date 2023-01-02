@@ -12,7 +12,7 @@ function News(props) {
             setIsLoading(true);
             try {
                 // const response = await fetch('http://localhost:5000/api/news/');
-                const response = await fetch('http://store-backend-project.herokuapp.com/api/news');
+                const response = await fetch('https://news-backend-eta.vercel.app/api/news');
                 const responseData = await response.json();
 
                 if (!response.ok) {

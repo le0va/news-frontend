@@ -41,7 +41,7 @@ function CreateNew(props) {
         props.onCancel();
 
         //  http://localhost:5000/api/news
-        await fetch('http://store-backend-project.herokuapp.com/api/news', {
+        await fetch('https://news-backend-eta.vercel.app/api/news', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
